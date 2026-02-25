@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main app component that composes all page sections (Navbar, Hero, Stats, Videos, About, Footer) in a single-page layout with smooth scroll navigation.",
+  "frontend/src/components/Navbar.tsx": "Responsive fixed navigation bar displaying the Topper Ignite logo image (rounded, with fire-colored ring) alongside the brand name text, smooth-scroll nav links, a YouTube subscribe CTA button, and a mobile hamburger menu with animated dropdown.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with the hero banner background image, animated gradient orbs, the channel name with fire gradient text, tagline, and dual CTA buttons linking to YouTube and the videos section.",
+  "frontend/src/components/Stats.tsx": "Statistics bar displaying key channel metrics (students, videos, chapters, rating) in a responsive 2×2/4-column card grid with icon highlights.",
+  "frontend/src/components/Videos.tsx": "Featured video lectures section with a responsive 3-column grid of video cards; each card shows a YouTube thumbnail with a play button overlay and embeds the iframe on click.",
+  "frontend/src/components/About.tsx": "About section describing the channel's mission, a full CBSE Class 12 syllabus chapter list, and a 4-card features grid highlighting teaching philosophy and benefits.",
+  "frontend/src/components/Footer.tsx": "Site footer with the Topper Ignite logo image (replacing the old flame icon), social links (YouTube/Instagram), quick navigation links, topics covered list, copyright, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/index.css": "Global styles with Google Fonts import (Poppins + Inter), OKLCH dark theme color system with fiery red-orange brand palette, and font utility classes.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom Poppins/Inter font families and all brand color tokens (site-bg, site-card, brand-fire, brand-gold, brand-teal, etc.) mapped to OKLCH CSS variables."
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add Topper Ignite logo image to navbar and footer",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Replace the existing logo in the Navbar component with the Topper Ignite logo image served from frontend/public/assets/generated/topper-ignite-logo.dim_256x256.png",
+      "acceptanceCriteria": [
+        "The Topper Ignite logo image (TG circular fire design) is visible in the Navbar on desktop and mobile views.",
+        "The logo image is served from frontend/public/assets/generated/topper-ignite-logo.dim_256x256.png.",
+        "The logo in the Navbar links to or scrolls to the top of the page.",
+        "No broken image or missing asset errors appear in the browser console."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navbar.tsx",
+          "operation": "modify",
+          "description": "Replace the existing logo element with an img tag that renders the Topper Ignite logo from frontend/public/assets/generated/topper-ignite-logo.dim_256x256.png. Ensure the logo maintains appropriate sizing (suggested: h-10 w-10 or similar for circular logo) and is wrapped in a clickable element that scrolls to the top of the page. Keep all existing navigation links, Subscribe CTA, and mobile menu functionality unchanged."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Replace the existing brand logo in the Footer component with the same Topper Ignite logo image",
+      "acceptanceCriteria": [
+        "The Topper Ignite logo image is visible in the Footer brand section.",
+        "The logo renders at an appropriate size consistent with the footer layout."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Replace the existing brand logo element in the Footer with an img tag that renders the Topper Ignite logo from frontend/public/assets/generated/topper-ignite-logo.dim_256x256.png. Ensure the logo size is appropriate for the footer layout (suggested: h-12 w-12 or similar). Keep all existing social links, navigation buttons, topics list, and copyright text unchanged."
+        }
+      ]
+    }
+  ]
+}

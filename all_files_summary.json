@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report confirming that the Topper Ignite logo image is used in the Footer component's brand logo area, with high confidence and linked to test REQ-2.",
+  "frontend-file-summaries.txt": "JSON document containing one-line summaries of each frontend source file, describing the purpose and key contents of each component.",
+  "frontend/index.css": "Tailwind CSS entry file that defines OKLCH-based CSS custom properties for light and dark themes, including colors for background, foreground, card, sidebar, and chart tokens.",
+  "frontend/index.html": "Minimal HTML shell for the Topper Ignite app, mounting the React app at the root div and loading the main TypeScript entry point.",
+  "frontend/src/App.tsx": "Root React component that assembles the full single-page layout by composing Navbar, Hero, Stats, Videos, About, and Footer sections with smooth-scroll anchor IDs.",
+  "frontend/src/components/About.tsx": "About section component displaying the channel's mission text, a 13-chapter CBSE syllabus list, and a 4-card features grid highlighting teaching philosophy and benefits.",
+  "frontend/src/components/Footer.tsx": "Site footer displaying the Topper Ignite logo image, social links (YouTube/Instagram), smooth-scroll quick links, a topics-covered list, copyright, and a caffeine.ai attribution.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with a background banner image, animated gradient orbs, the channel name in fire-gradient text, a tagline, and CTA buttons linking to YouTube and the videos section.",
+  "frontend/src/components/Navbar.tsx": "Fixed responsive navigation bar with the Topper Ignite logo image, smooth-scroll nav links, a YouTube subscribe button, and an animated mobile hamburger dropdown menu.",
+  "frontend/src/components/Stats.tsx": "Statistics section rendering a responsive 2×2/4-column grid of cards showing key channel metrics (students, videos, chapters, rating) with branded icon highlights.",
+  "frontend/src/components/Videos.tsx": "Renders a grid of Class 12 math chapter video cards with YouTube thumbnail previews that switch to embedded iframes on play, plus external link buttons.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and caches an ICP backend actor (anonymous or authenticated) using React Query, and invalidates dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an InternetIdentityProvider and useInternetIdentity hook for managing DFINITY AuthClient login/logout state and persisting identity across page reloads.",
+  "frontend/src/index.css": "Global CSS that imports Poppins/Inter fonts, sets up Tailwind layers, and defines OKLCH-based CSS custom properties for the dark energetic site theme and brand colors.",
+  "frontend/src/main.tsx": "App entry point that mounts the React app wrapped in QueryClientProvider and InternetIdentityProvider.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom OKLCH brand colors, Poppins/Inter font families, border radii, accordion animations, and typography/container-queries/animate plugins.",
+  "project_state.json": "Tracks project state including existing features and pending action requests, specifically for adding the Topper Ignite logo to the Navbar and Footer components."
+}

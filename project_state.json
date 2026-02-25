@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Project with logo addition request",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Edit Images\n- Convert the uploaded logo to a clean circular PNG with transparent background, preserving the TG fire design and 'TOPPER IGNITE' text (download-1.webp > topper-ignite-logo.dim_256x256.png)",
+  "existing_features": [
+    {
+      "id": "feature-use-the-same-topper-ignite-logo-image-in-the-footer-component-s-brand-logo-area-replacing-any-existing-placeholder-or-svg-logo-there",
+      "title": "Use the same Topper Ignite logo image in the Footer component's brand logo area, replacing any existing placeholder or SVG logo there.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Add a logo to the project",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Save the uploaded Topper Ignite logo (download-1.webp) as a static asset at frontend/public/assets/generated/topper-ignite-logo.png and use it as the logo image in the Navbar component, replacing any existing placeholder or SVG logo.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Topper Ignite",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

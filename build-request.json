@@ -1,0 +1,59 @@
+{
+  "kind": "build_request",
+  "title": "Add Topper Ignite logo image to navbar and footer",
+  "projectName": "Topper Ignite",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Save the uploaded Topper Ignite logo (download-1.webp) as a static asset at frontend/public/assets/generated/topper-ignite-logo.png and use it as the logo image in the Navbar component, replacing any existing placeholder or SVG logo.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "ye logo add karo"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Topper Ignite logo image (TG circular fire design) is visible in the Navbar on desktop and mobile views.",
+        "The logo image is served from frontend/public/assets/generated/topper-ignite-logo.png.",
+        "The logo in the Navbar links to or scrolls to the top of the page.",
+        "No broken image or missing asset errors appear in the browser console."
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Use the same Topper Ignite logo image in the Footer component's brand logo area, replacing any existing placeholder or SVG logo there.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "ye logo add karo"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Topper Ignite logo image is visible in the Footer brand section.",
+        "The logo renders at an appropriate size consistent with the footer layout."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files under frontend/src/hooks/ or frontend/src/main.tsx.",
+    "Do not alter the overall layout or styling of Navbar or Footer beyond replacing the logo element."
+  ],
+  "nonGoals": [
+    "Redesigning the Navbar or Footer layout.",
+    "Adding new navigation links or sections.",
+    "Any backend changes."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": [
+      "Convert the uploaded logo to a clean circular PNG with transparent background, preserving the TG fire design and 'TOPPER IGNITE' text (download-1.webp > topper-ignite-logo.dim_256x256.png)"
+    ]
+  }
+}

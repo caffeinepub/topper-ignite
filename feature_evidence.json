@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-use-the-same-topper-ignite-logo-image-in-the-footer-component-s-brand-logo-area-replacing-any-existing-placeholder-or-svg-logo-there",
+      "featureTitle": "Use the same Topper Ignite logo image in the Footer component's brand logo area, replacing any existing placeholder or SVG logo there.",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
