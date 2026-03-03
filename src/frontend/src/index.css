@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+
+    /* Site colors - dark energetic theme */
+    --site-bg: 0.12 0.01 260;
+    --site-surface: 0.15 0.015 260;
+    --site-card: 0.18 0.015 260;
+    --site-footer: 0.1 0.01 260;
+    --site-fg: 0.95 0 0;
+    --nav-bg: 0.1 0.01 260;
+
+    /* Brand colors */
+    --brand-fire: 0.62 0.22 28;
+    --brand-ember: 0.55 0.2 22;
+    --brand-gold: 0.78 0.17 75;
+    --brand-teal: 0.65 0.14 195;
+
+    /* Shadcn tokens mapped to our theme */
+    --background: 0.12 0.01 260;
+    --foreground: 0.95 0 0;
+    --card: 0.18 0.015 260;
+    --card-foreground: 0.95 0 0;
+    --popover: 0.18 0.015 260;
+    --popover-foreground: 0.95 0 0;
+    --primary: 0.62 0.22 28;
+    --primary-foreground: 0.98 0 0;
+    --secondary: 0.22 0.02 260;
+    --secondary-foreground: 0.95 0 0;
+    --muted: 0.22 0.02 260;
+    --muted-foreground: 0.65 0.01 260;
+    --accent: 0.78 0.17 75;
+    --accent-foreground: 0.12 0.01 260;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.28 0.02 260;
+    --input: 0.28 0.02 260;
+    --ring: 0.62 0.22 28;
+    --chart-1: 0.62 0.22 28;
+    --chart-2: 0.78 0.17 75;
+    --chart-3: 0.65 0.14 195;
+    --chart-4: 0.55 0.2 22;
+    --chart-5: 0.7 0.15 150;
+    --sidebar: 0.15 0.015 260;
+    --sidebar-foreground: 0.95 0 0;
+    --sidebar-primary: 0.62 0.22 28;
+    --sidebar-primary-foreground: 0.98 0 0;
+    --sidebar-accent: 0.22 0.02 260;
+    --sidebar-accent-foreground: 0.95 0 0;
+    --sidebar-border: 0.28 0.02 260;
+    --sidebar-ring: 0.62 0.22 28;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: "Poppins", sans-serif;
+  }
+  .font-body {
+    font-family: "Inter", sans-serif;
+  }
+}
